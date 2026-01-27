@@ -43,46 +43,6 @@ After completing this workshop, you will be able to:
 7. **Demo 4: Data Consolidation** (bonus) - Merging economic data with subagent verification
 8. **Q&A** (remaining time)
 
-## Folder Structure
-
-```
-Claude Code Workshop/
-├── README.md
-├── slides/
-│   ├── workshop_slides.tex      # LaTeX Beamer source
-│   ├── workshop_slides.pdf      # Compiled slides (30 pages)
-│   └── workshop_slides.md       # Original markdown slides
-├── demo1_linear_regression/
-│   └── productivity_study.csv   # Sample dataset
-├── demo2_julia_documentation/
-│   ├── SOURCE.md                # Instructions to download DSGE.jl
-│   └── dry_run_results/         # Example output from demo
-├── demo3_refactoring/
-│   ├── messy_codebase/          # Realistic PhD project (19 Python files)
-│   │   ├── download_*.py        # 4 data downloaders
-│   │   ├── process_survey.py
-│   │   ├── merge_all_data.py
-│   │   ├── analysis_*.py        # Chapter-specific analysis
-│   │   ├── make_figures_*.py    # Figure generation
-│   │   ├── make_tables.py
-│   │   ├── helpers.py
-│   │   ├── run_all.py           # Uses exec() anti-pattern
-│   │   ├── old_scripts/         # "Just in case" folder
-│   │   └── for_advisor/         # Quick meeting scripts
-│   └── dry_run_results/         # Example output from demo
-├── demo4_data_consolidation/
-│   └── SOURCE.md                # Instructions to download FRED/Michigan/SPF data
-└── assets/
-    └── example_CLAUDE.md
-```
-
-## Data Files
-
-Some demo data files are too large for GitHub and must be downloaded separately:
-
-- **Demo 2 (DSGE.jl)**: Download from [FRBNY-DSGE/DSGE.jl](https://github.com/FRBNY-DSGE/DSGE.jl)
-- **Demo 4 (Economic Data)**: See `demo4_data_consolidation/SOURCE.md` for download links to FRED, Michigan Survey, and SPF data
-
 ## Installation
 
 **Prerequisites:**
@@ -99,7 +59,8 @@ claude
 
 - [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)
 - [Claude.ai](https://claude.ai/) (Pro/Team subscription includes Claude Code)
-- [Anthropic Console](https://console.anthropic.com/) (API keys)
+- [Gemini](https://gemini.google.com/) (Free for Berkeley accounts!)
+- [D-Lab](https://dlab.berkeley.edu/)
 
 ---
 

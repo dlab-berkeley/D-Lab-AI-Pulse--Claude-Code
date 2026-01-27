@@ -22,11 +22,14 @@ venv/
 *.egg-info/
 
 # Data files (too large for GitHub)
-*.csv
 *.xls
 *.xlsx
 *.dta
 *.rds
+
+# Large CSV files (but keep demo1 sample data)
+demo4_data_consolidation/**/*.csv
+!demo1_linear_regression/productivity_study.csv
 
 # Julia
 *.jl.cov
